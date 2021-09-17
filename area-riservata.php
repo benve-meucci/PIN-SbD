@@ -1,6 +1,7 @@
 <?php
-
-if(isset($_COOKIE["user_id"])){
+if(!isset($_COOKIE["user_id"])){
+  header('Location: login.php');
+}
 ?>
 <h1>Ciao 
 <?php 
@@ -19,8 +20,3 @@ echo $row["name"];
 bla bla bla
 
 <div><a href="logout.php">Disconnetti</a></div>
-<?php
-} else {
-  header('Location: login.html');
-}
-?>

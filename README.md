@@ -59,6 +59,7 @@ mysql -u ecommerce -p -h localhost
 ```
 ## Creare una nuova tabella
 ```
+use my_ecommerce;
 CREATE TABLE orders (
   `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `order_number` varchar(25),
@@ -69,8 +70,8 @@ CREATE TABLE orders (
 ```
 ## Creare qualche ordine
 ```
-INSERT INTO orders (order_number, notes, user_id) VALUES ("123_GC", "Non consegnare di lunedì", "1");
-INSERT INTO orders (order_number, notes, user_id) VALUES ("124_GC", "Nessuno", "1");
-INSERT INTO orders (order_number, notes, user_id) VALUES ("125_GC", "Allegare DDT", "2");
+INSERT INTO orders (order_number, notes, user_id) VALUES ("123_GC", "Non consegnare di lunedì", 1);
+INSERT INTO orders (order_number, notes, user_id) VALUES ("124_GC", "Nessuno", 1);
+INSERT INTO orders (order_number, notes, user_id) VALUES ("125_GC", "Allegare DDT", 2);
 ```
 
