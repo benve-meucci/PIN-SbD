@@ -18,5 +18,9 @@ echo $row["name"];
 
 <h2>Questa è la tua area riservata</h2>
 bla bla bla
+<br>
+<div><a href="orders.php">Visualizza ordini</a></div>
+<br>
+bla bla bla
 
 <div><a href="logout.php">Disconnetti</a></div>
