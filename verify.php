@@ -20,5 +20,3 @@ if($num_row > 0){
 
 <hr>
 <p><small>Copyright 2021</small></p>
-
-
