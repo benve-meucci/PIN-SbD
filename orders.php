@@ -14,7 +14,7 @@ if (!$con) {
 $result = mysqli_query($con, "SELECT * FROM orders WHERE user_id = " . $_COOKIE["user_id"]);
 
 while($row = $result->fetch_assoc()){
-  echo "<div>Numero:" . $row['order_number'] . "<br>Note:" . $row['notes'] . "</div>";
+  echo "<div>Numero:" . $row['order_number']  . "</div>";
   echo "<hr>";
 }
 echo "<br>";
