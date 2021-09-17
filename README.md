@@ -69,8 +69,8 @@ CREATE TABLE orders (
 ```
 ## Creare qualche ordine
 ```
-INSERT INTO orders (order_numner, notes, user_id) VALUES ("123_GC", "Non consegnare di lunedì", "1");
-INSERT INTO orders (order_numner, notes, user_id) VALUES ("124_GC", "Nessuno", "1");
-INSERT INTO orders (order_numner, notes, user_id) VALUES ("125_GC", "Allegare DDT", "2");
+INSERT INTO orders (order_number, notes, user_id) VALUES ("123_GC", "Non consegnare di lunedì", "1");
+INSERT INTO orders (order_number, notes, user_id) VALUES ("124_GC", "Nessuno", "1");
+INSERT INTO orders (order_number, notes, user_id) VALUES ("125_GC", "Allegare DDT", "2");
 ```
 
