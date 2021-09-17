@@ -47,4 +47,6 @@ use my_ecommerce;
 INSERT INTO users (username, name, password) VALUES ("claudio", "Claudio Benvenuti", "benve");
 ```
 # Visualizzare i logs di apache
+```
 tail -f /var/log/apache2/error.log
+```
