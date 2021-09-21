@@ -1,9 +1,11 @@
 <?php
 if(!isset($_COOKIE["user_id"])){
   header('Location: login.php');
+} else {
+  setcookie("user_id", $_COOKIE["user_id"], time() + 5);
 }
-
 ?>
+
 <h1>Dettagli ordine</h1>
 <?php
 

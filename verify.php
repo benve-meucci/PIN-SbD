@@ -11,7 +11,7 @@ $num_row = mysqli_num_rows($result);
 $row = mysqli_fetch_array($result);
 
 if($num_row > 0){
-  setcookie("user_id", $row['id'], time() + (86400 * 30));
+  setcookie("user_id", $row['id'], time() +  5);
   header('Location: area-riservata.php');
 } else {
   header('Location: errore.php');
