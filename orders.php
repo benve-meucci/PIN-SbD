@@ -27,3 +27,4 @@ while($row = $result->fetch_assoc()){
 <div><a href="area-riservata.php">Dashboard</a></div>
 <hr>
 <p><small>Copyright 2021</small></p>
+
